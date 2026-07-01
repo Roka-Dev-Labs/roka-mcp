@@ -26,7 +26,7 @@ npm install -g roka-mcp
 npx roka-mcp connect --agent cursor --api-key rk_live_...
 ```
 
-> Package source is not published in this repository. Install from npm when released, or contact [mukhamedjankydyrli@gmail.com](mailto:mukhamedjankydyrli@gmail.com) for early access.
+> Package source is not published in this repository. Install from npm when released, or contact [support@roka-prune.com](mailto:support@roka-prune.com) for early access.
 
 ## What it does
 
@@ -65,7 +65,7 @@ Pruning runs on the hosted API (`https://api.roka-prune.com`). Override with `RO
 - [Website](https://roka-prune.com)
 - [Pricing](https://roka-prune.com/#pricing)
 - [CLI install](https://github.com/Roka-Dev-Labs/roka#install)
-- [Support](mailto:mukhamedjankydyrli@gmail.com)
+- [Support](mailto:support@roka-prune.com)
 
 ## License
 
