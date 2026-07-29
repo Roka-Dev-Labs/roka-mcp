@@ -1,0 +1,32 @@
+{
+  "name": "roka-mcp",
+  "version": "1.0.0",
+  "description": "MCP integration for Roka — connect Cursor, Claude Code, Codex, or Copilot to prune logs inside your agent",
+  "main": "src/index.js",
+  "bin": {
+    "roka-mcp": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "connect": "node src/cli.js"
+  },
+  "keywords": [
+    "mcp",
+    "roka",
+    "log-pruning",
+    "cursor",
+    "claude",
+    "copilot"
+  ],
+  "author": "Roka Dev Labs",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
